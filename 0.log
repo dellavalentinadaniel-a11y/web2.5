@@ -1,0 +1,59 @@
+2025-11-04T10:02:58.321Z [INFO] ----------------------invoke list_jdks----------------------
+2025-11-04T10:02:58.321Z [INFO] [Tool.invoke]({name: list_jdks, input: {
+  "projectPath": "/home/danieldellavalentina/seogrowthers-web"
+}}).
+2025-11-04T10:02:58.321Z [INFO] [Task.start](): Starting task toolCall
+2025-11-04T10:02:58.321Z [INFO] [Task.start](): Started task toolCall
+2025-11-04T10:02:58.321Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2025-11-04T10:03:56.220Z [INFO] Copilot user info:{
+  "access_type_sku": "trial_30_monthly_subscriber_quota",
+  "analytics_tracking_id": "ff32f72a1069a8234e7401379cbd097e",
+  "assigned_date": null,
+  "can_signup_for_limited": false,
+  "chat_enabled": true,
+  "copilot_plan": "individual",
+  "organization_login_list": [],
+  "organization_list": [],
+  "quota_reset_date": "2025-12-01",
+  "quota_snapshots": {
+    "chat": {
+      "entitlement": 0,
+      "overage_count": 0,
+      "overage_permitted": false,
+      "percent_remaining": 100,
+      "quota_id": "chat",
+      "quota_remaining": 0,
+      "remaining": 0,
+      "unlimited": true,
+      "timestamp_utc": "2025-11-04T10:03:56.109Z"
+    },
+    "completions": {
+      "entitlement": 0,
+      "overage_count": 0,
+      "overage_permitted": false,
+      "percent_remaining": 100,
+      "quota_id": "completions",
+      "quota_remaining": 0,
+      "remaining": 0,
+      "unlimited": true,
+      "timestamp_utc": "2025-11-04T10:03:56.109Z"
+    },
+    "premium_interactions": {
+      "entitlement": 300,
+      "overage_count": 0,
+      "overage_permitted": false,
+      "percent_remaining": 91,
+      "quota_id": "premium_interactions",
+      "quota_remaining": 273,
+      "remaining": 273,
+      "unlimited": false,
+      "timestamp_utc": "2025-11-04T10:03:56.109Z"
+    }
+  },
+  "quota_reset_date_utc": "2025-12-01T00:00:00.000Z"
+}
+2025-11-04T10:03:56.221Z [WARN] "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for GitHub Copilot "Pro", "Pro+", "Business" and "Enterprise" plans.
+2025-11-04T10:03:56.221Z [ERROR] [Tool.invoke] error occurs when invoking tool list_jdks: UnsupportedCopilotPlanError: "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for GitHub Copilot "Pro", "Pro+", "Business" and "Enterprise" plans.. Please upgrade your GitHub Copilot plan to use this feature or upgrading this project using other tools you prefer..
+2025-11-04T10:03:56.221Z [INFO] [Task.complete](): Completing task toolCall
+2025-11-04T10:03:56.221Z [INFO] ----------------------invoked list_jdks----------------------
+2025-11-04T10:03:56.222Z [INFO] [Task.complete](): Completed task toolCall
