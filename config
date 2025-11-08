@@ -1,0 +1,29 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	hooksPath = .husky/_
+[remote "origin"]
+	url = https://github.com/dellavalentinadaniel-a11y/seogrowthers-web.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[lfs]
+	repositoryformatversion = 0
+[branch "main"]
+	remote = origin
+	vscode-merge-base = origin/main
+	gk-merge-base = origin/main
+	merge = refs/heads/main
+[branch "copilot/vscode1762253218880"]
+	github-pr-base-branch = "dellavalentinadaniel-a11y#seogrowthers-web#main"
+	vscode-merge-base = origin/main
+	gk-merge-base = origin/main
+[branch "copilot/vscode1762254123913"]
+	github-pr-base-branch = "dellavalentinadaniel-a11y#seogrowthers-web#main"
+	vscode-merge-base = origin/main
+	gk-merge-base = origin/main
+[branch "hosting"]
+	remote = origin
+	merge = refs/heads/hosting
+	github-pr-base-branch = "dellavalentinadaniel-a11y#seogrowthers-web#main"
+	vscode-merge-base = origin/main
