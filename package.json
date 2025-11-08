@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 {
   "name": "seogrowthers-web",
   "version": "0.1.0",
